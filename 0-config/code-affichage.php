@@ -79,9 +79,8 @@ function modalContact(){
           <p class="text-center">Nicolas JOACHIM</p>
           <!-- <p><?php //var_dump($_POST); ?></p> -->
           <p class="text-center">ETNA, Ecole d'informatique en alternance, 7 Rue Maurice Grandcoing, 94200 Ivry-sur-Seine</p>
-          <p class="text-center">nico.joachim@free.fr</p>
           <hr><br>
-          <h3 class="text-center colored-blue">Entrez vos informations ici</h3>
+          <h3 class="text-center red">En raison d'un problème technique, l'envoi de message est indisponible. Veuillez passez par un client messagerie, et envoyer votre message à l'adresse : <a href="mailto:nico.joachim@free.fr">nico.joachim<i class="fa fa-at" aria-hidden="true"></i>free.fr </a></h3>
           <form action="index.php?action=mail" method="POST">
               <div class="col-md-6">
 
@@ -115,7 +114,7 @@ function modalContact(){
           </div>
           <div class="row">
           <div class="col-md-offset-5 col-md-2 text-center">
-            <button type="submit" class="btn btn-primary">Envoyer</button>
+            <button type="submit" class="btn btn-primary" disabled="true">Envoyer</button>
           </div>
         </div>
       </form>

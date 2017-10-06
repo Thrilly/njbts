@@ -1011,9 +1011,10 @@ if (isset($_GET['mail'])){
 	    	<footer>
 		    	<div class="col-md-4 hidden-sm hidden-xs">
 		    		<ul>
+
 		    			<li><a href="#home-head">Haut de la page</a></li>
 		    			<li><a href="#project">Mes projets</a></li>
-		    			<li><a href="#xp">Mon experience</a></li>
+		    			<li><a href="#xp">Mon experience</a></li><br>
 		    			
 		    		</ul>
 		    	</div>
@@ -1028,6 +1029,7 @@ if (isset($_GET['mail'])){
 		    		<ul>
 		    			<li><a href="#" id="contact2">Contact</a></li>
 		    			<li><a href="#">Mention Légales</a></li>
+		    			<li><a href="https://www.linkedin.com/in/nicolas-joachim-249040151/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="doc/nj_cv.pdf" target="_blank"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></a></li><br>
 		    			<br>
 		    			<li><p class="text-center">Site Web développé par mes soins - njbts &copy;</p></li>
 		    			<br>

@@ -27,7 +27,7 @@ function getMois($num=null){
 
 function mailing(){
     // if ($_POST['name']==""){ //HoneyPot
-        $to      = "nico.joachim@free.fr";
+        $to      = "joachi_n@etna-alternance.net";
         $subject = "Message NJBTS";
         $message = $_POST["msg"]."<br><br>".$_POST["pnom"]." ".$_POST["nom"]."<br>".$_POST["tel"]."<br><br>"."** Message reçu via le site internet NJBTS **";
         $headers = 'From: '.$_POST["pnom"]." ".$_POST["nom"].' <'.$_POST["email"].'>'.PHP_EOL;

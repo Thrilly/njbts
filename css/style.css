@@ -588,6 +588,10 @@ hr{
     animation-duration: 0.6s
 }
 
+.red{
+  color:red;
+}
+
 /* Add Animation */
 @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0} 
